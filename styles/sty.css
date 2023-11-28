@@ -1,0 +1,208 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.fa-solid {
+  font-size: 45px;
+  color: #fff;
+  padding-right: 5px;
+}
+.collapse {
+  font-size: 0.9rem;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.nav a:hover .dropdown:hover {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.card {
+  border: none;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+.fa-heart,
+.fa-cart-plus {
+  font-size: 1.5em;
+  color: #a9a9a9;
+  transition: 0.5s;
+}
+
+.fa-heart:hover,
+.fa-cart-plus:hover {
+  cursor: pointer;
+  color: rgb(230, 73, 73);
+}
+
+.third {
+  position: relative;
+}
+.deals {
+  position: absolute;
+  top: 5%;
+  left: 6%;
+  background-color: rgba(205, 92, 92, 90%);
+  font-weight: 600;
+  color: #fff;
+  transform: scale(0);
+  transition: 0.5s linear;
+}
+
+.deals :hover {
+  cursor: pointer;
+  color: #fff;
+  transform: scale(0);
+  background-color: rgba(205, 92, 92, 90%);
+  text-transform: capitalize;
+}
+input,
+textarea {
+  color: rgba(205, 92, 92, 90%);
+}
+.thief i {
+  font-size: 5em;
+}
+.contacts h1 {
+  text-decoration: underline;
+  color: rgba(205, 92, 92, 90%);
+}
+.final {
+  color: #fff;
+}
+.final a {
+  color: #fff;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.final a:hover {
+  cursor: pointer;
+  color: rgba(205, 92, 92, 90%);
+}
+hr {
+  color: rgb(255, 255, 255);
+  margin: 2em;
+}
+.bottom p {
+  color: #fff;
+}
+.bottom a {
+  color: #fff;
+}
+.bottom a:hover {
+  color: rgba(205, 92, 92, 90%);
+}
+
+@media screen and (min-width: 768px) and (max-width: 992) {
+  .feedback {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .feedback {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+}
+
+.main1 {
+  width: 100%;
+  height: 10vh;
+}
+.about1 {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../photo/images/about-us-page-heading.jpg);
+  background-size: cover;
+  color: #fff;
+}
+.para {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+}
+.para hr {
+  color: #615e5e;
+  width: 100%;
+}
+
+.social a {
+  color: black;
+}
+.social a:hover {
+  color: blue;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992) {
+  .main2 {
+    flex-direction: column;
+    justify-content: center !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main2 {
+    flex-direction: column;
+    justify-content: center !important;
+  }
+}
+.one,
+.two,
+.third {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992) {
+  .final {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .final {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+}
+.men {
+  width: auto;
+  height: 70vh;
+  background-image: url(../photo/images/products-background.jpg);
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+.card:hover {
+  background-color: #615e5e;
+  cursor: pointer;
+  transform: scale(1.1);
+  scroll-behavior: smooth;
+  transition: 0.9s;
+}
+.fashion p {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  color: darkgray;
+}
+@media screen and (min-width: 768px) and (max-width: 992) {
+  .contact {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contact {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+}
